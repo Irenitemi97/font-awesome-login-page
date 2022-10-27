@@ -1,0 +1,162 @@
+* {
+    margin: 0%;
+    padding: 0.%;
+
+}
+
+.icons {
+    padding: 1.5%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 150%;
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color: rgb(255, 255, 255);
+}
+
+.icons a {
+    color: rgb(61, 58, 58);
+}
+
+.backgroundDiv {
+    background-image: url(media/image/background1.jpg);
+
+    height: 100vh;
+    padding-left: 35%;
+    padding-right: 35%;
+    padding-top: 5.5%;
+    padding-bottom: 10%;
+}
+
+.smBackgroundDiv .welcome {
+    text-align: center;
+    text-transform: capitalize;
+    color: yellow;
+    margin-top: 30px;
+}
+
+.smBackgroundDiv .welcome .emoji {
+    font-size: 300%;
+    padding: 3%;
+}
+
+.smBackgroundDiv .smtext {
+    text-align: center;
+    
+}
+
+.smBackgroundDiv .smtext h2 {
+    font-size: 37px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-weight: 500;
+
+}
+
+.smBackgroundDiv .smtext p {
+    font-size: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.forms input {
+    height: 2.5vh;
+    width: 23.5vw;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 20px;
+    
+    font-weight: 200;
+
+}
+
+.forms input:hover {
+    /* color: rgb(64, 64, 197); */
+    outline: rgb(82, 205, 246) solid 5px;
+}
+
+.forms .email {
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.forms .password {
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.labelText {
+    text-transform: capitalize;
+    font-weight: 900;
+}
+
+.backgroundDiv .smP p {
+    text-align: center;
+    text-transform: capitalize;
+
+}
+
+
+.backgroundDiv .smBackgroundDiv {
+    background-color: white;
+    padding: 7%;
+    border-radius: 10px;
+}
+
+.remember{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+
+button {
+    background-color: rgb(246, 246, 36);
+   
+    border: 10%;
+    border-radius: 10px;
+    font-size: 15px;
+    text-transform: capitalize;
+    font-weight: 600;
+    height: 7vh;
+    width: 26.5vw;
+    box-shadow: 0 8px black;
+    margin-bottom: 25px;
+}
+
+ button:hover {
+    color: darkgoldenrod;
+}
+
+ button i {
+    margin-left: 5px;
+}
+
+.smP {
+    margin-top: 30px;
+    font-weight: 400;
+}
+.bottomDiv {
+    background-color: #040427;
+    display: flex;
+    justify-content: space-between;
+    height: 5vh;
+    padding: 2%;
+    color: white;
+}
+
+.smBottomdiv {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    text-transform: capitalize;
+}
+
+.smBottomdiv a {
+    color: white;
+}
+
+.bottomDiv .smBottomdiv p {
+    margin-right: 15px;
+}
